@@ -1,0 +1,10 @@
+#write a python program to implement single inhertentr
+class Robo:
+    def one(self):
+        print("this is iit roorkee")
+class mtech(Robo):
+    def two(self):
+        print("iam studying m.tech")
+obj=mtech()
+obj.one()
+obj.two()
